@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 246, 246);
+}
+h1{
+    text-align: center;
+    font-size: 6vw;
+    text-decoration: underline;
+}
+table{
+    margin: 30px auto;
+   width: 45%;
+   height: auto;
+   box-shadow: 0 15px 15px 15px lightgrey;
+}
+tbody{
+    height: 50vh;
+}
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgb(254, 254, 254);
+
+}
+td{
+    width: 33%;
+    height:33%;
+    text-align: center;
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.container{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(165, 246, 246);
+    border: 3px solid rgb(245, 148, 148);
+    border-radius: 10px;
+    position: relative;
+}
+.container1{
+    position: absolutes;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(165, 246, 246);
+    border: 3px solid rgb(245, 148, 148);
+    box-shadow: 0 15px 15px 15px rgb(246, 218, 218);
+    border-radius: 10px;
+}
+.container h3 ,.container1 h3{
+    background-color: rgb(165, 246, 246);
+}
+.container1 h4{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container1{
+    display: inline-block;
+    width: 15%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(165, 246, 246);
+    border: 3px solid rgb(245, 148, 148);
+    box-shadow: 0 15px 15px 15px rgb(254, 215, 215);
+    border-radius: 10px;
+}
+#btn{
+background-color: #C2FBD7;
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+color: #008000;
+cursor: pointer;
+display: inline-block;
+float: right;
+margin-right: 40px;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+}
+#btn:hover{
+background-color: #AFE6C3;
+transform: scale(1.05);
+}
+.form{
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    margin:10% 30%;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 0 15px 15px 15px lightgrey;
+    
+}
+.form input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 5px lightgrey;
+    cursor:text;
+}
+.index{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(239, 233, 233);
+}
+
+

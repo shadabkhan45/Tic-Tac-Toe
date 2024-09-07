@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTac</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+    
+    
+</head>
+<body onload="point()">
+    <h1>Tic Tac</h1>
+    <div class="container">
+        <h3 id="pla1">player 1: O</h3><br>
+        <h3 id="pla2">player 2: X</h3>
+
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td id="b1" onclick="value('b1')"></td>
+                <td id="b2" onclick="value('b2')"></td>
+                <td id="b3" onclick="value('b3')"></td>
+            </tr>
+            <tr>
+                <td id="b4" onclick="value('b4')"></td>
+                <td id="b5" onclick="value('b5')"></td>
+                <td id="b6" onclick="value('b6')"></td>
+            </tr>
+            <tr>
+                <td id="b7" onclick="value('b7')"></td>
+                <td id="b8" onclick="value('b8')"></td>
+                <td id="b9" onclick="value('b9')"></td>
+            </tr>
+            
+        </tbody>
+        
+
+    </table>
+    <div class="container1">
+        <h3 id="play1">Player 1 Score:</h3>
+        <h4 id="p1"></h4>
+        <br>
+        <h3 id="play2">Player 2 Score:</h3>
+        <h4 id="p2"></h4>
+
+    </div>
+    <input type="button" value="Final Result" id="btn" onclick="reset()">
+   
+</body>
+</html>
